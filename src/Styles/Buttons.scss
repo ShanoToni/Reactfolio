@@ -1,0 +1,60 @@
+.slide:hover,
+.slide:focus {
+  box-shadow: inset 11.5em 0 0 0 var(--hover); 
+}
+
+// Animate the size, outside
+.pulse:hover, 
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(#fff,0);
+}
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 var(--hover); }
+}
+
+$colors: (
+  fill: #a972cb,
+  pulse: #ef6eae, 
+  close: #ff7f82, 
+  raise: #ffa260, 
+  up: #e4cb58, 
+  slide: #3b7015, 
+  offset: #19bc8b
+);
+@each $a, $color in $colors {
+  .#{$a} {
+    --color: #{$color};
+    --hover: #{adjust-hue($color, 45deg)};
+  }
+}
+a {  
+  color: var(--color);
+  transition: 0.55s, transform 0.3s;
+  
+  &:hover,
+  &:focus { 
+    border-color: var(--hover);
+    color: #fff;
+  }
+
+  &:active {
+      transform: scale(0.8);
+  }
+}
+
+a {
+  background: none;
+  border: 3px solid;
+  font: inherit;
+  font-size: 1.5em;
+  line-height: 1;
+  margin: 0;
+  padding: 0.5em 1em;
+}

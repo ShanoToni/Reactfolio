@@ -1,0 +1,26 @@
+#contacts {
+    background: linear-gradient(135deg,#02aab0,#00cdac);
+    clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
+    padding-bottom: 20em;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;   
+}
+
+.icon {
+    border-radius: 50px;
+    font-size: 1.5rem;
+}
+
+.top{
+    text-align: center;
+    border: none;
+}
+
+.span{
+    font-size: 3em;
+}

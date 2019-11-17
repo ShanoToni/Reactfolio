@@ -1,0 +1,53 @@
+#about {
+    background: linear-gradient(135deg,#02aab0,#00cdac);
+    clip-path: polygon(0 0,100% 0,100% 80%,0 100%)
+}
+.aboutContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 2em 20em;
+    margin: auto;
+    grid-gap: 1rem;
+}
+
+.zone {
+    display: flex;
+    text-align: center;
+    transition: all 0.3s linear;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 1em 2em;
+    padding-bottom: 10em;
+}
+
+.text {
+    font-size: 1.2em;
+}
+h2{
+    padding-top: 2em;
+    font-size: 3em;
+}
+.aboutText {
+    margin-bottom: 3em;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .aboutContainer {
+        padding: 0;
+        padding-bottom: 10em;
+    } 
+    .zone {
+        padding-bottom: 2em;
+    }
+    #about {
+        clip-path: polygon(0 0,100% 0,100% 90%,0 100%)
+    }
+  }
+
+ 
+
+
+  
