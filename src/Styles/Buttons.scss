@@ -20,13 +20,13 @@
 }
 
 $colors: (
-  fill: #a972cb,
-  pulse: #ef6eae, 
-  close: #ff7f82, 
-  raise: #ffa260, 
-  up: #e4cb58, 
-  slide: #3b7015, 
-  offset: #19bc8b
+  fill: #66fcf1,
+  pulse: #66fcf1, 
+  close: #66fcf1, 
+  raise: #66fcf1, 
+  up: #66fcf1, 
+  slide: #66fcf1, 
+  offset: #66fcf1
 );
 @each $a, $color in $colors {
   .#{$a} {

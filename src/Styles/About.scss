@@ -1,5 +1,5 @@
 #about {
-    background: linear-gradient(135deg,#02aab0,#00cdac);
+    background: linear-gradient(135deg,#1f2833,#2d3b4b);
     clip-path: polygon(0 0,100% 0,100% 80%,0 100%)
 }
 .aboutContainer {
@@ -8,6 +8,10 @@
     padding: 2em 20em;
     margin: auto;
     grid-gap: 1rem;
+}
+
+.myFace{
+    transform: scaleX(-1);
 }
 
 .zone {
@@ -31,6 +35,7 @@ h2{
 }
 .aboutText {
     margin-bottom: 3em;
+    line-height: 1.5em;
 }
 
 
