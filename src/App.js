@@ -33,14 +33,14 @@ class App extends React.Component {
     return(
       <ParallaxProvider>
         <div className="App">
-          <Parallax className="custom-class" y={[-30, 30]} >
+          <Parallax className="lowZ" y={[-30, 30]} >
             <Box>
                 <HeroSection/>
             </Box>
           </Parallax>
           <About/>
-          <Parallax className="custom-class" y={[-10, 10]} >
-            <Projects/>
+          <Parallax className="lowZ" y={[0, 30]} >
+              <Projects/>
           </Parallax>
           <Contacts/>
         </div> 
