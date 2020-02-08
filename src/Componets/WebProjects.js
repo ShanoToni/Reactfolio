@@ -21,8 +21,8 @@ const WebProjects = () =>{
                     </p>
                 </div>
                 <p className="btnGroup">
-                    <a class="slide no-underline small" href="https://github.com/ShanoToni/SmartBrain">View Source</a>
-                    <a class="slide no-underline small" href="https://shanotoni.github.io/SmartBrain/">View Demo</a>
+                    <a class="slide no-underline small" rel="noopener noreferrer" target="_blank" href="https://github.com/ShanoToni/SmartBrain">View Source</a>
+                    <a class="slide no-underline small" rel="noopener noreferrer" target="_blank" href="https://shanotoni.github.io/SmartBrain/">View Demo</a>
                     
                 </p>
 
@@ -46,8 +46,8 @@ const WebProjects = () =>{
                     </p>
                 </div>
                 <p className="btnGroup">
-                    <a class="slide no-underline small" href="https://github.com/ShanoToni/ReactAlgos">View Source</a>
-                    <a class="slide no-underline small" href="https://shanotoni.github.io/ReactAlgos/">View Demo</a>
+                    <a class="slide no-underline small" rel="noopener noreferrer" target="_blank" href="https://github.com/ShanoToni/ReactAlgos">View Source</a>
+                    <a class="slide no-underline small" rel="noopener noreferrer" target="_blank" href="https://shanotoni.github.io/ReactAlgos/">View Demo</a>
                     
                 </p>
 
@@ -75,8 +75,8 @@ const WebProjects = () =>{
                     </p>
                 </div>
                 <p className="btnGroup">
-                    <a class="slide no-underline small" href="https://github.com/ShanoToni/PortfolioSite">View Source</a>
-                    <a class="slide no-underline small" href="http://shanocode.herokuapp.com/projects">View Demo</a>
+                    <a class="slide no-underline small" rel="noopener noreferrer" target="_blank" href="https://github.com/ShanoToni/PortfolioSite">View Source</a>
+                    <a class="slide no-underline small" rel="noopener noreferrer" target="_blank" href="http://shanocode.herokuapp.com/projects">View Demo</a>
                     
                 </p>
 

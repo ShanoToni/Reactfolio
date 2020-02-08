@@ -33,7 +33,7 @@ class Projects extends React.Component{
                 </Fade>
                 <div className="projSelectContainer">
                 <ul>
-                    <li className="one select" onClick={() => this.onProjectChange("rendering")}><p >Rendering Projects</p></li>
+                    <li className="one select" onClick={() => this.onProjectChange("rendering")}><p >GPU/Parallel Projects</p></li>
                     <li className="two select" onClick={() => this.onProjectChange("web")}><p >Web Projects</p></li>
                     {/*<li class="three"><a href="#">Tres</a></li>*/}
                     { this.state.selected === "web"
