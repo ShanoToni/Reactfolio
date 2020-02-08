@@ -32,7 +32,7 @@ const About = () =>{
                             </p>
                         </div>
                         <div>
-                            <a class="slide no-underline" href="#about">Resume</a>
+                            <a class="slide no-underline" rel="noopener noreferrer" target="_blank" href="https://github.com/ShanoToni/Reactfolio/blob/master/PDFFiles/AntonCV.pdf">Resume</a>
                         </div>
                     </Fade>
                 </div>

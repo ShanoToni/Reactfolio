@@ -51,7 +51,7 @@ const WebProjects = () =>{
                 </div>
                 <p className="btnGroup">
                     <a class="slide no-underline small" rel="noopener noreferrer" target="_blank" href="https://github.com/ShanoToni/NbodySimulation">View Source</a>
-                    <a class="slide no-underline small" rel="noopener noreferrer" target="_blank" href="http://shanocode.herokuapp.com/projects/5d5c5fcd5c42730017ee63b3">View Paper</a>
+                    <a class="slide no-underline small" rel="noopener noreferrer" target="_blank" href="https://github.com/ShanoToni/Reactfolio/blob/master/PDFFiles/ParaNCuda.pdf">View Paper</a>
                     
                 </p>
 
