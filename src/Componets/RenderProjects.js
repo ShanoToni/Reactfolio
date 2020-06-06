@@ -94,6 +94,7 @@ const WebProjects = () =>{
                 </div>
             </Fade>
             </div>
+       
         </section>
     );
 }
