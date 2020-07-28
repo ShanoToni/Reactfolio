@@ -22,7 +22,7 @@ const About = () =>{
                         <div className="aboutText">    
                             <p>
                             I am a graduate from the Edinburgh Napier University with a BSc degree in Games Developement with First Class Honours.
-                             Rendering and physics simulations were my preffered fields of study at university.
+                             Rendering and physics simulations were my preferred fields of study at university.
                             </p>
                             <p>
                             My university carriculum included advanced mathematics, computer graphics programming, physics based simulations, concurrent and parallel programming, GPGPU optimizations, neural networks, fuzzy logic and evolutionary algorithms.

@@ -2,6 +2,7 @@ import React from 'react';
 import HeroSection from "./Componets/HeroSection";
 import About from "./Componets/About";
 import Projects from "./Componets/Projects";
+import Game from "./Componets/Game"
 import Contacts from "./Componets/Contacts";
 import posed from 'react-pose';
 import { ParallaxProvider } from 'react-scroll-parallax';
@@ -39,8 +40,9 @@ class App extends React.Component {
             </Box>
           </Parallax>
           <About/>
-          <Parallax className="lowZ" y={[0, 30]} >
+          <Parallax className="lowZ" y={[30, 30]} >
               <Projects/>
+              <Game/>
           </Parallax>
           <Contacts/>
         </div> 
