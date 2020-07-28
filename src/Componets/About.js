@@ -25,7 +25,7 @@ const About = () =>{
                              Rendering and physics simulations were my preferred fields of study at university.
                             </p>
                             <p>
-                            My university carriculum included advanced mathematics, computer graphics programming, physics based simulations, concurrent and parallel programming, GPGPU optimizations, neural networks, fuzzy logic and evolutionary algorithms.
+                            My university curriculum included advanced mathematics, computer graphics programming, physics based simulations, concurrent and parallel programming, GPGPU optimizations, neural networks, fuzzy logic and evolutionary algorithms.
                             </p>
                             <p>
                             I enjoy learning new programming technologies in my free time, such as web development and object modelling.
