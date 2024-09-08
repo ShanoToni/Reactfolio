@@ -10,7 +10,7 @@ const HeroSection = () =>{
         <div id="top" className="Hero">
             <div className="heroContainer">
                 <Fade left>
-                    <h1 className="heroText mb4">Hi, my name is <span className="name">Anton Mitkov</span> <br/> I'm the Scrum Master/Engineer.</h1>
+                    <h1 className="heroText mb4">Hello, my name is <span className="name">Anton Mitkov</span> <br/> I'm the Scrum Master/Engineer.</h1>
                 </Fade>
                 <Fade left delay={500}>
                     <p className="btn">

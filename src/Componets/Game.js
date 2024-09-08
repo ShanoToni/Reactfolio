@@ -17,7 +17,7 @@ const Game = () =>{
                 <div className="projectParagraphs">
                 <h3>Raid The Dungeon</h3>
                     <p>
-                    A project developed in Unreal Engine 4 using C++ and blueprints, and Blender. The game is a demonstration of my skillset in using UE4.
+                    A project developed in Unreal Engine 4 using C++, blueprints, and Blender. The game is a demonstration of my skillset in using UE4.
                     </p>
                     <p>
                     Raid the dungeon is a 3D dungeon crawler RPG game. You will be exploring different levels of dungeons full of traps and enemies but more importantly LOOT ! In between raids you can use the loot to buy new equipment and fun potions to help you with your adventure.

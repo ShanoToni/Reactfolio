@@ -21,9 +21,7 @@ const WebProjects = () =>{
                     </p>
                 </div>
                 <p className="btnGroup">
-                    <a class="slide no-underline small" rel="noopener noreferrer" target="_blank" href="https://github.com/ShanoToni/ShanoEngine/tree/master/ShanoCode/ShanoCode">View Source</a>
-                    <a class="slide no-underline small" rel="noopener noreferrer" target="_blank" href="http://shanocode.herokuapp.com/projects">View Demo</a>
-                    
+                    <a class="slide no-underline small" rel="noopener noreferrer" target="_blank" href="https://github.com/ShanoToni/ShanoEngine/tree/master/ShanoCode/ShanoCode">View Source</a>                    
                 </p>
 
                 </div>
@@ -80,7 +78,6 @@ const WebProjects = () =>{
                 </div>
                 <p className="btnGroup">
                     <a class="slide no-underline small" rel="noopener noreferrer" target="_blank" href="https://github.com/ShanoToni/OpenGLRayTracer">View Source</a>
-                    <a class="slide no-underline small" rel="noopener noreferrer" target="_blank" href="http://shanocode.herokuapp.com/projects/5d448033c0f5e91948f5eead">View Page</a>
                     
                 </p>
 
