@@ -2,21 +2,12 @@ import React from "react";
 import "../Styles/Font.css"
 import "../Styles/Buttons.scss"
 import "../Styles/Projects.scss"
-import Tilt from 'react-tilt'
+import {Tilt} from 'react-tilt'
 import Fade from 'react-reveal/Fade';
 
 const WebProjects = () =>{
     return (
         <section className="WebProjects">
-            <div className="projectsContainer">
-            <Fade right>        
-                <div className="image projZone">
-                <Tilt className="Tilt" options={{ max : 25 }} >
-                        <img src="https://i.imgur.com/SK9iqmB.png" className="mw-100 shadow-4" alt="night sky over water"/> 
-                    </Tilt>
-                </div>
-            </Fade>
-            </div>
             <div className="projectsContainer">
             <Fade left>        
                 <div className="text projZone"> 

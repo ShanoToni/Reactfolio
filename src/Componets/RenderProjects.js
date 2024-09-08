@@ -2,7 +2,7 @@ import React from "react";
 import "../Styles/Font.css"
 import "../Styles/Buttons.scss"
 import "../Styles/Projects.scss"
-import Tilt from 'react-tilt'
+import {Tilt} from 'react-tilt'
 import Fade from 'react-reveal/Fade';
 
 const WebProjects = () =>{

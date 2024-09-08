@@ -21,13 +21,13 @@ const About = () =>{
                     <Fade right>        
                         <div className="aboutText">    
                             <p>
-                            I am a software engineer specializing in high performance computing libraries for linear algebra and machine learning. From perfomance optimizations, adding features, extending functonality, porting to different devices to automating tests, I have done a bit of it all.
+                            I am a software engineer specializing in <span className="name">high performance computing</span> libraries for <span className="name">linear algebra</span> and <snap className="name"> machine learning</snap>. From <snap className="name"> perfomance optimizations, adding features, extending functonality, porting</snap> to different devices to automating tests, I have done a bit of it all.
                             </p>
                             <p>
-                            My degree in games developement started my career in accelerated compuing, where I studined graphics, rendering, physics-based simulations, concurrent and parallel programming. 
+                            My degree in games developement started my career in accelerated computing, where I studied <snap className="name">graphics, rendering, physics-based simulations, concurrent</snap> and <snap className="name">parallel programming</snap>. 
                             </p>
                             <p>
-                            In my professional experience I discovered the value of collaboration, taking up the role of Scrum Master as well as Engineer for multiple teams, providing support for my teammates, facilitating agile ceremonies, as well as working on the engineering tasks.
+                            In my professional experience I discovered the value of collaboration, taking up the role of <snap className="name">Scrum Master</snap> as well as Engineer for multiple teams, providing support for my teammates, facilitating agile ceremonies, as well as working on the engineering tasks.
                             </p>
                         </div>
                         <div>
