@@ -2,40 +2,12 @@ import React from "react";
 import "../Styles/Font.css"
 import "../Styles/Buttons.scss"
 import "../Styles/Projects.scss"
-import Tilt from 'react-tilt'
+import {Tilt} from 'react-tilt'
 import Fade from 'react-reveal/Fade';
 
 const WebProjects = () =>{
     return (
         <section className="WebProjects">
-            <div className="projectsContainer">
-            <Fade left>        
-                <div className="text projZone"> 
-                <div className="projectParagraphs">
-                <h3>SmartBrain App</h3>
-                    <p>
-                    A web app developed using React, Express and PostgreSQL. It handles creation of profiles and authentication as well as communication with a third party API for the facial recognition and its own backend API.
-                    </p>
-                    <p>
-                    The web app uses profiles to store information in a database. To try use anton@anton.com as a username and anton as a password to login and simply copy and paste an image address in the field.
-                    </p>
-                </div>
-                <p className="btnGroup">
-                    <a class="slide no-underline small" rel="noopener noreferrer" target="_blank" href="https://github.com/ShanoToni/SmartBrain">View Source</a>
-                    <a class="slide no-underline small" rel="noopener noreferrer" target="_blank" href="https://shanotoni.github.io/SmartBrain/">View Demo</a>
-                    
-                </p>
-
-                </div>
-            </Fade>
-            <Fade right>        
-                <div className="image projZone">
-                <Tilt className="Tilt" options={{ max : 25 }} >
-                        <img src="https://i.imgur.com/SK9iqmB.png" className="mw-100 shadow-4" alt="night sky over water"/> 
-                    </Tilt>
-                </div>
-            </Fade>
-            </div>
             <div className="projectsContainer">
             <Fade left>        
                 <div className="text projZone"> 
