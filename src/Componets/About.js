@@ -21,13 +21,13 @@ const About = () =>{
                     <Fade right>        
                         <div className="aboutText">    
                             <p>
-                            I am a graduate from the Edinburgh Napier University with a BSc degree in Games Development with First Class Honours. Rendering and physics simulations were my preferred fields of study at university.
+                            I am a software engineer specializing in high performance computing libraries for linear algebra and machine learning. From perfomance optimizations, adding features, extending functonality, porting to different devices to automating tests, I have done a bit of it all.
                             </p>
                             <p>
-                            y university curriculum included advanced mathematics, computer graphics programming, physics-based simulations, concurrent and parallel programming, GPGPU optimizations, neural networks, fuzzy logic and evolutionary algorithms.
+                            My degree in games developement started my career in accelerated compuing, where I studined graphics, rendering, physics-based simulations, concurrent and parallel programming. 
                             </p>
                             <p>
-                            I enjoy learning new programming technologies in my free time, such as web development and object modelling.
+                            In my professional experience I discovered the value of collaboration, taking up the role of Scrum Master as well as Engineer for multiple teams, providing support for my teammates, facilitating agile ceremonies, as well as working on the engineering tasks.
                             </p>
                         </div>
                         <div>
