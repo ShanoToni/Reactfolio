@@ -4,9 +4,10 @@ import About from "./Componets/About";
 import Projects from "./Componets/Projects";
 import Game from "./Componets/Game"
 import Contacts from "./Componets/Contacts";
-import posed from 'react-pose';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import { Parallax } from 'react-scroll-parallax';
+import { Fade } from "react-swift-reveal";
+
 
 import './App.css';
 
@@ -14,16 +15,6 @@ const initState = {
   selected: ""
 }
 
-const Box = posed.div({
-  visible: {
-    opacity: 1,
-    scaleY: 1,
-    transition: {
-      opacity: { ease: 'easeOut', duration: 300 },
-      default: { ease: 'linear', duration: 500 }
-    }
-  }
-});
 
 class App extends React.Component {
   constructor(){
@@ -35,9 +26,9 @@ class App extends React.Component {
       <ParallaxProvider>
         <div className="App">
           <Parallax className="lowZ" y={[-30, 30]} >
-            <Box>
+            <Fade>
                 <HeroSection/>
-            </Box>
+            </Fade>
           </Parallax>
           <About/>
           <Parallax className="lowZ" y={[30, 30]} >

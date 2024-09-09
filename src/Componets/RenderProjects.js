@@ -3,13 +3,13 @@ import "../Styles/Font.css"
 import "../Styles/Buttons.scss"
 import "../Styles/Projects.scss"
 import {Tilt} from 'react-tilt'
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
 
 const WebProjects = () =>{
     return (
         <section className="WebProjects">
             <div className="projectsContainer">
-            <Fade left>        
+            <Fade>   
                 <div className="text projZone"> 
                 <div className="projectParagraphs">
                 <h3>OpenGL Render and Physics Engine</h3>
@@ -26,7 +26,7 @@ const WebProjects = () =>{
 
                 </div>
             </Fade>
-            <Fade right>        
+            <Fade>   
                 <div className="image projZone">
                 <Tilt className="Tilt" options={{ max : 25 }} >
                         <img src="https://i.imgur.com/dfF0vL9.png" className="mw-100 shadow-4" alt="night sky over water"/> 
@@ -36,7 +36,7 @@ const WebProjects = () =>{
             </div>
 
              <div className="projectsContainer">
-            <Fade left>        
+             <Fade>   
                 <div className="text projZone"> 
                 <div className="projectParagraphs">
                 <h3>Parallel Nbody Optimization</h3>
@@ -55,7 +55,7 @@ const WebProjects = () =>{
 
                 </div>
             </Fade>
-            <Fade right>        
+            <Fade>   
                 <div className="image projZone">
                 <Tilt className="Tilt" options={{ max : 25 }} >
                         <img src="https://i.imgur.com/rBHnw5c.png" className="mw-100 shadow-4" alt="night sky over water"/> 
@@ -65,7 +65,7 @@ const WebProjects = () =>{
             </div>
 
                 <div className="projectsContainer">
-            <Fade left>        
+                <Fade>   
                 <div className="text projZone"> 
                 <div className="projectParagraphs">
                 <h3>Compute Real-Time Ray Tracer</h3>
@@ -83,7 +83,7 @@ const WebProjects = () =>{
 
                 </div>
             </Fade>
-            <Fade right>        
+            <Fade>   
                 <div className="image projZone">
                 <Tilt className="Tilt" options={{ max : 25 }} >
                         <img src="https://i.imgur.com/XroTB1m.png" className="mw-100 shadow-4" alt="night sky over water"/> 

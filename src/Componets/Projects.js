@@ -2,7 +2,7 @@ import React from "react";
 import "../Styles/Font.css"
 import "../Styles/Buttons.scss"
 import "../Styles/Projects.scss"
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
 import WebProjects from "./WebProjects";
 import RenderProjects from "./RenderProjects"
 
@@ -28,9 +28,9 @@ class Projects extends React.Component{
     render(){
         return(
             <section id="projects">
-                <Fade down>        
+            <Fade>   
                     <h2 className="projectsTitle">Projects</h2>
-                </Fade>
+            </Fade>
                 <div className="projSelectContainer">
                 <ul>
                     <li className="one select" onClick={() => this.onProjectChange("rendering")}><p >GPU/Parallel Projects</p></li>

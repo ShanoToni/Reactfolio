@@ -3,16 +3,16 @@ import "../Styles/Font.css"
 import "../Styles/Buttons.scss"
 import "../Styles/Projects.scss"
 import {Tilt} from 'react-tilt'
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
 
 const Game = () =>{
     return (
         <section className="WebProjects">
-        <Fade down>        
+            <Fade>   
                     <h2 className="projectsTitle">Games</h2>
-                </Fade>
+            </Fade>
             <div className="projectsContainer">
-            <Fade left>        
+            <Fade>   
                 <div className="text projZone"> 
                 <div className="projectParagraphs">
                 <h3>Raid The Dungeon</h3>
@@ -30,7 +30,7 @@ const Game = () =>{
 
                 </div>
             </Fade>
-            <Fade right>        
+            <Fade>   
                 <div className="image projZone">
                 <Tilt className="Tilt" options={{ max : 25 }} >
                     <iframe frameborder="0" src="https://itch.io/embed/657963" width="552" height="167"><a href="https://antongames.itch.io/raid-the-dungeon">Raid The Dungeon by AntonGames</a></iframe>

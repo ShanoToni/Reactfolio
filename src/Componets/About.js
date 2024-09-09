@@ -3,22 +3,22 @@ import React from "react";
 import "../Styles/About.scss"
 import "../Styles/Font.css"
 import "../Styles/Buttons.scss"
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
 
 const About = () =>{
     return(
         <section id="about">
-            <Fade down>        
+            <Fade>   
                 <h2>About me</h2>
             </Fade>
             <div className="aboutContainer">
-                <Fade up>        
+                <Fade>   
                     <div className="image zone">
                         <img src="https://i.imgur.com/41M7arh.jpg?1" className="mw-70 shadow-4 myFace" alt="my face"/> 
                     </div>
                 </Fade>
                 <div className="text zone"> 
-                    <Fade right>        
+                    <Fade>   
                         <div className="aboutText">    
                             <p>
                             I am a software engineer specializing in <span className="name">high performance computing</span> libraries for <span className="name">linear algebra</span> and <snap className="name"> machine learning</snap>. From <snap className="name"> perfomance optimizations, adding features, extending functonality, porting</snap> to different devices to automating tests, I have done a bit of it all.
